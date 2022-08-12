@@ -1,0 +1,13 @@
+.light {
+  --btn-bg: var(--purple);
+  --btn-color: var(--biege);
+  background: var(--biege);
+  color: var(--charcoal);
+}
+
+.dark {
+  --btn-bg: var(--yellow);
+  --btn-color: var(--charcoal);
+  background: var(--coal);
+  color: var(--biege);
+}
