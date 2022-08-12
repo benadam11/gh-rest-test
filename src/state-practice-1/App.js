@@ -4,6 +4,7 @@
 */
 
 import * as React from "react";
+import './theme.css';
 
 class Container extends React.Component {
   constructor(props) {
