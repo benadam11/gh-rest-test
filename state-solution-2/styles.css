@@ -1,0 +1,130 @@
+/* Ignore this file. You can put your CSS in the styles.css file */
+
+:root {
+  --coal: #0f0d0e;
+  --charcoal: #231f20;
+  --charcoal-10: rgba(35, 31, 32, 0.1);
+  --charcoal-50: rgba(35, 31, 32, 0.5);
+  --gray: #262522;
+  --yellow: #fcba28;
+  --pink: #f38ba3;
+  --green: #0ba95b;
+  --purple: #7b5ea7;
+  --biege-body: #fffbe3;
+  --biege: #f9f4da;
+  --biege-10: rgba(249, 244, 218, 0.1);
+  --biege-50: rgba(249, 244, 218, 0.5);
+  --blue: #12b5e5;
+  --orange: #fc7428;
+  --red: #ed203d;
+
+  --bg: var(--coal);
+  --color: var(--biege);
+  --accent: var(--yellow);
+  --color-inverse: var(--charcoal);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+html,
+#root {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+}
+
+html {
+  font-family: "Outfit", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--color);
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-family: "Paytone One", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+main {
+  min-height: 100%;
+  padding: 24px;
+}
+
+button {
+  appearance: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+}
+
+.container {
+  max-width: 90ch;
+  margin: auto;
+  min-height: 100%;
+  height: 100%;
+}
+
+.yellow-border {
+  padding: 0;
+  margin: 0;
+  background: var(--yellow);
+  height: 5px;
+  width: 100%;
+}
+
+.container > div {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 40px 40px 40px;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+button {
+  background: var(--charcoal);
+  color: var(--yellow);
+  border: 1px solid var(--biege-10);
+  cursor: pointer;
+}
