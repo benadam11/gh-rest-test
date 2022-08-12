@@ -21,7 +21,7 @@ class Count extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="container">
         <button onClick={this.decrement}>-</button>
         <span>{this.state.count}</span>
         <button onClick={this.increment}>+</button>

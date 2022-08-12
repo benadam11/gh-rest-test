@@ -113,7 +113,7 @@ button {
   width: 100%;
 }
 
-.container > div {
+.container {
   padding: 24px;
   display: grid;
   grid-template-columns: 40px 40px 40px;
