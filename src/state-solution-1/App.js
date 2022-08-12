@@ -6,7 +6,7 @@ class Container extends React.Component {
     super(props);
 
     this.state = {
-      mode: "light"
+      mode: "dark"
     };
 
     this.handleLightMode = this.handleLightMode.bind(this);
