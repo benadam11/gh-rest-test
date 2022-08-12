@@ -1,6 +1,6 @@
 /*
   Instructions
-    See the comments in handleLightMode and handleDarkMode
+  See the comments in handleLightMode and handleDarkMode
 */
 
 import * as React from "react";
